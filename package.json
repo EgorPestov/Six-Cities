@@ -1,7 +1,7 @@
 {
   "name": "6 cities",
   "version": "13.0.0",
-  "homepgae": "https://egorpestov.github.io/six-cities/",
+  "homepage": "https://egorpestov.github.io/six-cities/",
   "type": "module",
   "scripts": {
     "start": "vite",
