@@ -1,49 +1,37 @@
-# Личный проект «Шесть городов»
+# Six Cities: a housing search service
+by: Egor Pestov <egorpestov2012@yandex.ru>
 
-* Студент: [Егор Пестов](https://up.htmlacademy.ru/react/13/user/2273727).
-* Наставник: [Денис Уткин](https://htmlacademy.ru/profile/id2254997).
-
----
-
-_Не удаляйте и не изменяйте папки и файлы:_
-_`.editorconfig`, `.gitattributes`, `.gitignore`._
 
 ---
 
-### Памятка
-
-#### 1. Зарегистрируйтесь на Гитхабе
-
-Если у вас ещё нет аккаунта на [github.com](https://github.com/join), скорее зарегистрируйтесь.
-
-#### 2. Создайте форк
-
-Откройте репозиторий и нажмите кнопку «Fork» в правом верхнем углу. Репозиторий из Академии будет скопирован в ваш аккаунт.
-
-<img width="769" alt="Press 'Fork'" src="https://cloud.githubusercontent.com/assets/259739/20264045/a1ddbf40-aa7a-11e6-9a1a-724a1c0123c8.png">
-
-Получится вот так:
-
-<img width="769" alt="Forked" src="https://cloud.githubusercontent.com/assets/259739/20264122/f63219a6-aa7a-11e6-945a-89818fc7c014.png">
-
-#### 3. Клонируйте репозиторий на свой компьютер
-
-Будьте внимательны: нужно клонировать свой репозиторий (форк), а не репозиторий Академии. Также обратите внимание, что клонировать репозиторий нужно через SSH, а не через HTTPS. Нажмите зелёную кнопку в правой части экрана, чтобы скопировать SSH-адрес вашего репозитория:
-
-<img width="769" alt="SSH" src="https://cloud.githubusercontent.com/assets/259739/20264180/42704126-aa7b-11e6-9ab4-73372b812a53.png">
-
-Клонировать репозиторий можно так:
-
-```
-git clone SSH-адрес_вашего_форка
-```
-
-Команда клонирует репозиторий на ваш компьютер и подготовит всё необходимое для старта работы.
-
-#### 4. Начинайте обучение!
+Stack: HTML, CSS, JavaScript, React, TypeScript, Redux, Axios, Vite, Vitest, leaflet
 
 ---
 
-<a href="https://htmlacademy.ru/intensive/react"><img align="left" width="50" height="50" title="HTML Academy" src="https://up.htmlacademy.ru/static/img/intensive/react/logo-for-github.png"></a>
+Six Cities: a housing search service. Thanks to its functionality, the service enables users to quickly and conveniently find accommodation in any city, with the option to sort listings based on parameters such as price and rating, which is generated from reviews. Each listing page provides comprehensive information, including its location on the map. Users can also read and leave reviews about the accommodation, along with ratings.
 
-Репозиторий создан для обучения на профессиональном онлайн‑курсе «[React. Разработка сложных клиентских приложений](https://htmlacademy.ru/intensive/react)» от [HTML Academy](https://htmlacademy.ru).
+The application consists of the following pages:
+
+# Home Page: The main page displaying lists of accommodation options, with city filters and sorting options by price/rating. Each available accommodation option's card presents concise information such as its rating, price, and type. On the right side of the home page, a dynamic map is shown, displaying the location of the option currently being hovered over.
+
+# Accommodation Details Page: Clicking on an accommodation card leads users to a specific accommodation page with extensive information about the property. This information includes a list of amenities, the number of bedrooms, host information, property description, and more. Below this, a list of reviews is presented. If a user is registered and logged in, they can leave their review, which will be immediately displayed on the page. Otherwise, the review submission form is not shown.
+
+# Favorites Page: On this page, users can view the accommodation options they have added to their favorites. The page is accessible only to authorized users.
+
+# Authentication Page: An authentication page for non-authorized users.
+
+# 404 Error Page: A page that displays when users attempt to access non-existent pages.
+
+* The application's header is dynamically generated and, depending on the user's authentication status, displays information such as their login and the number of favorited options, or prompts non-authorized users to authenticate.
+
+* The map, based on Leaflet, dynamically transitions with animation when switching between different cities. It functions both with highlighting the selected option and with nearby offerings that are loaded from the server.
+
+* The project is initialized and built using Vite. The entire codebase is written in TypeScript, with React used for functional components.
+
+* Server communication is managed through Axios and interceptors usage. 
+
+* Redux slices are used as the state manager. Each slice of the store has its own actions, reducers, and, if necessary, extra reducers.
+
+* Errors are handled both through interceptors and in asynchronous actions using try-catch constructions. For notifying users of errors, react-toastify is utilized.
+
+* Almost the entire codebase in the project is covered by tests using Vitest."
