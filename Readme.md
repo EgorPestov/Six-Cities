@@ -12,15 +12,15 @@ Six Cities: a housing search service. Thanks to its functionality, the service e
 
 The application consists of the following pages:
 
-# Home Page: The main page displaying lists of accommodation options, with city filters and sorting options by price/rating. Each available accommodation option's card presents concise information such as its rating, price, and type. On the right side of the home page, a dynamic map is shown, displaying the location of the option currently being hovered over.
+• Home Page: The main page displaying lists of accommodation options, with city filters and sorting options by price/rating. Each available accommodation option's card presents concise information such as its rating, price, and type. On the right side of the home page, a dynamic map is shown, displaying the location of the option currently being hovered over.
 
-# Accommodation Details Page: Clicking on an accommodation card leads users to a specific accommodation page with extensive information about the property. This information includes a list of amenities, the number of bedrooms, host information, property description, and more. Below this, a list of reviews is presented. If a user is registered and logged in, they can leave their review, which will be immediately displayed on the page. Otherwise, the review submission form is not shown.
+• Accommodation Details Page: Clicking on an accommodation card leads users to a specific accommodation page with extensive information about the property. This information includes a list of amenities, the number of bedrooms, host information, property description, and more. Below this, a list of reviews is presented. If a user is registered and logged in, they can leave their review, which will be immediately displayed on the page. Otherwise, the review submission form is not shown.
 
-# Favorites Page: On this page, users can view the accommodation options they have added to their favorites. The page is accessible only to authorized users.
+• Favorites Page: On this page, users can view the accommodation options they have added to their favorites. The page is accessible only to authorized users.
 
-# Authentication Page: An authentication page for non-authorized users.
+• Authentication Page: An authentication page for non-authorized users.
 
-# 404 Error Page: A page that displays when users attempt to access non-existent pages.
+• 404 Error Page: A page that displays when users attempt to access non-existent pages.
 
 * The application's header is dynamically generated and, depending on the user's authentication status, displays information such as their login and the number of favorited options, or prompts non-authorized users to authenticate.
 
