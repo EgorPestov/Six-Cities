@@ -1,7 +1,7 @@
 {
   "name": "6 cities",
   "version": "13.0.0",
-  "homepage": "https://egorpestov.github.io/six-cities/",
+  "homepage": "https://six-cities-woad.vercel.app/",
   "type": "module",
   "scripts": {
     "start": "vite",
