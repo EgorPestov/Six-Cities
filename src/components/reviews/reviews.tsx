@@ -78,5 +78,7 @@ export const Reviews = () => {
         {authStatus === AuthStatus.Auth && <CommentForm scrollToReviewsTitle={scrollToReviewsTitle} />}
       </section>
     );
+  } else {
+    return null;
   }
 };

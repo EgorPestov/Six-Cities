@@ -8,7 +8,7 @@ type PrivateRouteProps = {
 
 export const PrivateLoginRoute = ({authorizationStatus, children}: PrivateRouteProps) => {
   if (authorizationStatus === AuthStatus.Unknown) {
-    return;
+    return null;
   }
   return (
     authorizationStatus === AuthStatus.NoAuth
