@@ -8,7 +8,7 @@ import { extractActionsTypes } from '../../store/mocks/mock-utils.ts';
 import { fetchOffers } from '../../store/api-actions.ts';
 import { setOffers, sortOffers, initialState, setOffersLoadStatus, setOffersBackup, setError } from '../../store/offers-process/offers-process.ts';
 
-describe('Error Screen', () => {
+describe('Component: Error Screen', () => {
   it('should render correctly and have dispatches when click on button', () => {
     const firstExpectedText = 'Server is not available';
     const { withStoreComponent } = withStore(<ErrorScreen />, {});
