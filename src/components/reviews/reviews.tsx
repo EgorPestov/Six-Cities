@@ -6,7 +6,7 @@ import { AuthStatus, RATING_COEFFICIENT } from '../../const';
 import { useEffect, useRef } from 'react';
 import { fetchReviews } from '../../store/api-actions';
 import { getActiveId } from '../../store/offers-process/selectors';
-import { getAuthStatus } from '../../store/user-process.ts/selectors';
+import { getAuthStatus } from '../../store/user-process/selectors';
 import { getReviews, getCommentPostStatus } from '../../store/comments-process/selectors';
 
 

@@ -10,7 +10,7 @@ import { LoadingScreen } from '../loading-screen/loading-screen';
 import { createSelector } from '@reduxjs/toolkit';
 import { AuthStatus } from '../../const';
 import { getOffers, getOffersLoadStatus, getActiveCity } from '../../store/offers-process/selectors';
-import { getAuthStatus } from '../../store/user-process.ts/selectors';
+import { getAuthStatus } from '../../store/user-process/selectors';
 import { MainEmpty } from './main-empty';
 
 const MainPageComponent = () => {

@@ -11,7 +11,7 @@ import {
 } from './offers-process/offers-process';
 import { setNearbyOffers, setNearbyOffersLoadStatus } from './nearby-offers-process/nearby-offers-process';
 import { setReviews, setReviewsLoadStatus, setCommentPostStatus } from './comments-process/comments-process';
-import { setUserData } from './user-process.ts/user-process';
+import { setUserData } from './user-process/user-process';
 import { APIRoute, AppRoute } from '../const';
 import { ReviewType } from '../components/types/review';
 import { saveToken, dropToken } from '../services/token';

@@ -16,7 +16,7 @@ import { NotFound } from '../404/404';
 import { setActiveId, setCurrentOffer } from '../../store/offers-process/offers-process';
 import { getOffers, getCurrentOffer, getOffersLoadStatus, getFullOffer, getFullOfferLoadStatus } from '../../store/offers-process/selectors';
 import { getNearbyOffers, getNearbyOffersLoadStatus } from '../../store/nearby-offers-process/selectors';
-import { getAuthStatus } from '../../store/user-process.ts/selectors';
+import { getAuthStatus } from '../../store/user-process/selectors';
 import { AuthStatus, AppRoute, RATING_COEFFICIENT } from '../../const';
 import { redirectToRoute } from '../../store/actions';
 

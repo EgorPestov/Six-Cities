@@ -3,7 +3,7 @@ import { MouseEvent, memo, useState } from 'react';
 import { changeFavStatus } from '../../store/api-actions';
 import { useAppDispatch } from '../../hooks/useAppDispatch/useAppDispatch';
 import { useAppSelector } from '../../hooks/useAppSelector/useAppSelector';
-import { getAuthStatus } from '../../store/user-process.ts/selectors';
+import { getAuthStatus } from '../../store/user-process/selectors';
 import { AuthStatus, AppRoute, RATING_COEFFICIENT } from '../../const';
 import { redirectToRoute } from '../../store/actions';
 

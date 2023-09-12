@@ -5,7 +5,7 @@ import { useAppDispatch } from '../../../hooks/useAppDispatch/useAppDispatch';
 import { useAppSelector } from '../../../hooks/useAppSelector/useAppSelector';
 import { logout } from '../../../store/api-actions';
 import { getFavOffersNumber } from '../../../store/offers-process/selectors';
-import { getAvatar, getEmail } from '../../../store/user-process.ts/selectors';
+import { getAvatar, getEmail } from '../../../store/user-process/selectors';
 import { MouseEvent } from 'react';
 
 export const AuthElement = () => {

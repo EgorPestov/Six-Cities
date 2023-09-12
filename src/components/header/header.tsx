@@ -5,7 +5,7 @@ import { useAppSelector } from '../../hooks/useAppSelector/useAppSelector';
 import { getStyleForNavLink } from '../../utils';
 import { AuthElement } from '../auth-elements/auth-element/auth-element';
 import { NoAuthElement } from '../auth-elements/no-auth-element/no-auth-element';
-import { getAuthStatus } from '../../store/user-process.ts/selectors';
+import { getAuthStatus } from '../../store/user-process/selectors';
 
 const HeaderComponent = () => {
   const authStatus = useAppSelector(getAuthStatus);

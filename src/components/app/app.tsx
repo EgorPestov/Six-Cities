@@ -12,7 +12,7 @@ import { PrivateLoginRoute } from '../private-routes/private-login-route/private
 import { useAppSelector } from '../../hooks/useAppSelector/useAppSelector';
 import { useAppDispatch } from '../../hooks/useAppDispatch/useAppDispatch';
 import { fetchOffers, checkAuth } from '../../store/api-actions';
-import { getAuthStatus } from '../../store/user-process.ts/selectors';
+import { getAuthStatus } from '../../store/user-process/selectors';
 import { hasError } from '../../store/offers-process/selectors';
 import { ErrorScreen } from '../error-screen/error-screen';
 

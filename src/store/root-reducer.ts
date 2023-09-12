@@ -1,4 +1,4 @@
-import { userProcessSlice } from './user-process.ts/user-process';
+import { userProcessSlice } from './user-process/user-process';
 import { offersProcessSlice } from './offers-process/offers-process';
 import { nearbyOffersProcessSlice } from './nearby-offers-process/nearby-offers-process';
 import { commentsProcessSlice } from './comments-process/comments-process';

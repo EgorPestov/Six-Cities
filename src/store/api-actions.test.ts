@@ -12,7 +12,7 @@ import { checkAuth, fetchOffers, fetchFullOffer, fetchFavOffers, fetchNearbyOffe
 import { APIRoute } from '../const';
 import { redirectToRoute } from './actions';
 import * as tokenStorage from '../services/token';
-import { setUserData } from './user-process.ts/user-process';
+import { setUserData } from './user-process/user-process';
 import { setError, setFavOffers, setFavOffersLoadStatus, setFullOffer, setFullOfferLoadStatus, setOffers, setOffersBackup, setOffersLoadStatus, sortOffers } from './offers-process/offers-process';
 import { setCommentPostStatus, setReviews, setReviewsLoadStatus } from './comments-process/comments-process';
 import { setNearbyOffers, setNearbyOffersLoadStatus } from './nearby-offers-process/nearby-offers-process';
