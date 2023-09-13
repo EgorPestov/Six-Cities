@@ -26,7 +26,6 @@ const HeaderComponent = () => {
             </NavLink>
           </div>
           {authStatus === AuthStatus.Auth ? <AuthElement /> : <NoAuthElement />}
-
         </div>
       </div>
     </header>
