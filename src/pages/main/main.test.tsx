@@ -4,7 +4,7 @@ import { withHistory, withStore } from '../../store/mocks/mock-component';
 import { AuthStatus } from '../../const';
 import { mockOffers } from '../../store/mocks/mock-offers';
 
-describe('Component: Main', () => {
+describe('Page: Main', () => {
   it('should render correctly and not render empty component if there are offers by active city', () => {
     const { withStoreComponent } = withStore(<MainPage />, {
       USER: {

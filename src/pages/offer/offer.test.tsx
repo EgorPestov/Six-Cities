@@ -6,7 +6,7 @@ import { mockOffers } from '../../store/mocks/mock-offers';
 import { mockFullOffer } from '../../store/mocks/mock-full-offer';
 import { mockReviews } from '../../store/mocks/mock-reviews';
 
-describe('Component: Offer', () => {
+describe('Page: Offer', () => {
   it('should render correctly', () => {
     const { withStoreComponent } = withStore(<Offer />, {
       USER: {

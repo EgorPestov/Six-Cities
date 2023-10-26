@@ -4,7 +4,7 @@ import { withHistory, withStore } from '../../store/mocks/mock-component';
 import { AuthStatus } from '../../const';
 import { mockOffers } from '../../store/mocks/mock-offers';
 
-describe('Component: Favorites', () => {
+describe('Page: Favorites', () => {
   it('should render correctly and not displaying message of empty page', () => {
     const { withStoreComponent } = withStore(<Favorites />, {
       USER: {

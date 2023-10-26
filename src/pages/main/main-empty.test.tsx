@@ -3,7 +3,7 @@ import { MainEmpty } from './main-empty';
 import { withHistory, withStore } from '../../store/mocks/mock-component';
 import { AuthStatus } from '../../const';
 
-describe('Component: Main Empty', () => {
+describe('Page: Main Empty', () => {
   it('should render correctly', () => {
     const { withStoreComponent } = withStore(<MainEmpty />, {
       USER: {
