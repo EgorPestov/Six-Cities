@@ -2,7 +2,7 @@ import { render, screen } from '@testing-library/react';
 import { Login } from './login';
 import { withHistory, withStore } from '../../store/mocks/mock-component';
 
-describe('Component: Login', () => {
+describe('Page: Login', () => {
   it('should render correctly', () => {
     const {withStoreComponent} = withStore(<Login />);
 
