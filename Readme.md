@@ -4,7 +4,7 @@ by: Egor Pestov <egorpestov2012@yandex.ru>
 
 ---
 
-<b>Stack:</b> HTML, CSS, JavaScript, React, TypeScript, Redux, Axios, Vite, Vitest, leaflet
+<b>Stack:</b> TypeScript, JavaScript, React, Redux, RTK, React Router, Axios, Vite, Vitest, leaflet
 
 ---
 
